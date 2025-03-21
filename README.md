@@ -1,101 +1,61 @@
-# React TypeScript Tailwind Starter Template
+# React TypeScript Tailwind Project
 
-A modern, lightweight starter template for React projects using TypeScript and Tailwind CSS. This template provides a solid foundation to jumpstart your front-end development with best practices and optimized configurations.
-
-## Features
-
-- ⚡️ **React** - A JavaScript library for building user interfaces
-- 🔷 **TypeScript** - Static type checking for JavaScript
-- 🎨 **Tailwind CSS** - A utility-first CSS framework
-- 📦 **Optimized build setup** - Efficient production builds
-- 🧪 **Testing ready** - Set up for unit and integration tests
-- 📱 **Responsive design** - Mobile-first approach
+This is a project template using React, TypeScript, and Tailwind CSS.
 
 ## Getting Started
 
 ### Prerequisites
 
-- Node.js (version 14.x or higher recommended)
+Make sure you have the following installed:
+
+- Node.js
 - npm or yarn
 
 ### Installation
 
 1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/react-ts-tail.git
+    ```
+2. Navigate to the project directory:
+    ```sh
+    cd react-ts-tail
+    ```
+3. Install dependencies:
+    ```sh
+    npm install
+    ```
+    or
+    ```sh
+    yarn install
+    ```
 
-   ```bash
-   git clone https://github.com/yourusername/react-ts-tail.git
-   cd react-ts-tail
-   ```
+### Running the Project
 
-2. Install dependencies:
-
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. Start the development server:
-
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
-
-4. Open your browser and navigate to `http://localhost:3000`
-
-## Project Structure
-
+To start the development server, run:
+```sh
+npm run dev
 ```
-react-ts-tail/
-├── public/            # Static files
-├── src/               # Source files
-│   ├── assets/        # Assets like images, fonts, etc.
-│   ├── components/    # Reusable UI components
-│   ├── hooks/         # Custom React hooks
-│   ├── pages/         # Application pages/routes
-│   ├── styles/        # Global styles and Tailwind config
-│   ├── types/         # TypeScript type definitions
-│   ├── utils/         # Utility functions
-│   ├── App.tsx        # Main App component
-│   └── main.tsx       # Entry point
-├── .eslintrc.js       # ESLint configuration
-├── tsconfig.json      # TypeScript configuration
-├── tailwind.config.js # Tailwind CSS configuration
-└── vite.config.ts     # Vite configuration
+or
+```sh
+yarn run dev
 ```
 
-## Customization
+### Building the Project
 
-### Tailwind Configuration
-
-Customize the `tailwind.config.js` file to adjust colors, typography, spacing, and more.
-
-### Adding Dependencies
-
-```bash
-npm install package-name
-# or
-yarn add package-name
-```
-
-## Building for Production
-
-```bash
+To create a production build, run:
+```sh
 npm run build
-# or
+```
+or
+```sh
 yarn build
 ```
 
-This will generate optimized production files in the `dist` directory.
-
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
-# react-ts-tail-shadkit-template
-# react-ts-tail-shadkit-template
+This project is licensed under the MIT License.
