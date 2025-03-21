@@ -1,1 +1,1 @@
-# Starter template for React-ts project with Tailwind CSS, ShadCn and Redux Toolkit .
+# Starter template for React-ts project with Tailwind CSS, React Router, ShadCn and Redux Toolkit .
